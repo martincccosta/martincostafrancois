@@ -1,0 +1,52 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kosugi&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kosugi", sans-serif;
+}
+
+header {
+    margin: 10px 20px;
+}
+
+menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+menu li {
+    list-style: none;
+}
+
+menu a {
+    color: black;
+    text-decoration: none;
+}
+
+menu a:hover {
+    color: red;
+}
+
+#currentTime {
+    margin-top: 20px;
+}
+
+#compilation {
+    display: grid;
+    grid: repeat(2, 60px) / auto-flow 100%;
+}
+
+footer {
+    display: grid;
+    place-content: center;
+    position: static;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}

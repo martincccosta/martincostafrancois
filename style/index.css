@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kosugi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kosugi", sans-serif;
+}
+
+header {
+    margin: 10px 20px;
+}
+
+menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+menu li {
+    list-style: none;
+}
+
+menu a {
+    color: black;
+    text-decoration: none;
+}
+
+menu a:hover {
+    color: red;
+}
+
+.article {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 100px; ;
+    gap: 100px
+    ;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+ .photo img {
+    max-width: 700px;
+    max-height: 600px;
+}
+
+#currentTime {
+    margin-top: 20px;
+}
+
+footer {
+    display: grid;
+    place-content: center;
+    position: static;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
